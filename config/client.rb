@@ -8,3 +8,5 @@ validation_key           "#{current_dir}/.chef/validation.pem"
 chef_server_url          'http://localhost:4000'
 cache_type               'BasicFile'
 cache_options( :path => "#{current_dir}/.chef/checksums" )
+
+cookbook_path	["/Users/syaifulsabril/chef-repo-backup/cookbooks"]
