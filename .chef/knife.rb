@@ -9,7 +9,7 @@ chef_server_url          'http://localhost:4000'
 cache_type               'BasicFile'
 cache_options( :path => '/Users/syaifulsabril/chef-repo-backup/.chef/checksums' )
 
-cookbook_path	["/Users/syaifulsabril/chef-repo/-backup/cookbooks"]
+cookbook_path	["/Users/syaifulsabril/chef-repo-backup/cookbooks"]
 
 knife[:aws_access_key_id] = "AKIAJOZHFEZALLKCKUOQ"
 knife[:aws_secret_access_key] = "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"
